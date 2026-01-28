@@ -14,7 +14,7 @@ function App() {
           className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-lg transition-colors"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Count is {count}!
         </button>
       </div>
     </div>
