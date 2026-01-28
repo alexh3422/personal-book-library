@@ -1,0 +1,25 @@
+{
+  "name": "personal-book-library",
+  "version": "1.0.0",
+  "description": "A personal book library database to help keep track of books you own and or have read/not read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexh3422/personal-book-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexh3422/personal-book-library/issues"
+  },
+  "homepage": "https://github.com/alexh3422/personal-book-library#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
